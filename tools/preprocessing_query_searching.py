@@ -54,5 +54,5 @@ def main(folder_path):
     parse_xml_and_create_json(folder_path)
 
 if __name__ == "__main__":
-    folder_path = '/scratch/project/neural_ir/dylan/LLM_FS/data/fedwebgh/search_data/fedweb14/FW14-sample-search'
+    folder_path = 'data/fedwebgh/search_data/fedweb14/FW14-sample-search'
     main(folder_path)
