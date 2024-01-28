@@ -21,11 +21,11 @@ BOS, EOS = "<s>", "</s>"
 example_query = "protege pizza tutorial"
 
 snippet_examples="Snippet 1:\nSnippet Title: \nIn annual tradition, advertisers cowed by NFL trademark bullying.\n" \
-        "Snippet Description:\n... to sell a variety of products\u2014televisions, pizzas, soda\u2014in conjunction with the game... \"Super Sale XLVI,\" using a football for a logo. Pizza Hut is offering a \"Big Deal…\n"
+        "Snippet Info:\n... to sell a variety of products\u2014televisions, pizzas, soda\u2014in conjunction with the game... \"Super Sale XLVI,\" using a football for a logo. Pizza Hut is offering a \"Big Deal…\n"
 
 example_description = "You are looking for a tutorial or guide related to making or preparing pizza, possibly with a focus on specific techniques or styles. This could include step-by-step instructions, tips, or video demonstrations."
 
-assistant_prompt = "Given a user query and relevant snippets about the query, a descripiton of the query describs user information need of the query with respect to the relevant snippets.\n"
+assistant_prompt = "Given a user query and relevant snippets about the query, a description of the query describes the user information need with respect to the relevant snippets.\n"
 
 user_prompt = 'An example query is:\n' \
     f'{example_query}\n' \
@@ -37,7 +37,7 @@ user_prompt = 'An example query is:\n' \
     '{query}\n' \
     'the relevant snippets are:\n' \
     '{snippets}' \
-    'Please write a descriotion for the user query above.\n'
+    'Please write a description for the user query above.\n'
 
 labeling_prompt_llama = f"{BOS}{B_INST} {B_SYS}\n" \
                 f"{assistant_prompt}\n" \

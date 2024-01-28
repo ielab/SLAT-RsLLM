@@ -1,2 +1,4 @@
 
 *.sh
+*.xml
+.idea/SLAT-RsLLM.iml
