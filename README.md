@@ -1,5 +1,5 @@
-# SIGIR-2024-SLAT-ResLLM
-Code Repo for SIGIR-2024-SLAT-ResLLM
+# SLAT-ResLLM
+Code Repo for SLAT-ResLLM
 
 ### Enviroment Setup
 1. Use Conda enviroment with python=3.10
