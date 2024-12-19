@@ -2,3 +2,5 @@
 *.sh
 *.xml
 .idea/SLAT-RsLLM.iml
+/.idea
+.DS_Store
