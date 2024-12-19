@@ -5,17 +5,30 @@ Code Repo for SLAT-ResLLM
 ## Result Appendix
 
 ### Prompts
+
 ![Table 1](plots/table1.png)
+
+---
+
 ![Table 2](plots/table2.png)
+
+---
+
 ![Table 3](plots/table3.png)
 
+---
 
 ### Results
 
 ![Figure 1](plots/figure1.png)
-![Figure 2](plots/figure2.png)
-![Figure 3](plots/figure3.png)
 
+---
+
+![Figure 2](plots/figure2.png)
+
+---
+
+![Figure 3](plots/figure3.png)
 
 
 --------------------------------------------
